@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "tile": "t0_2_-1",
+  "material_keys": [
+    "asphalt_fresh",
+    "asphalt_worn",
+    "granite_curb",
+    "cobblestone",
+    "concrete_slabs",
+    "grass",
+    "gravel",
+    "quay_stone"
+  ],
+  "pixel_m": 0.04464660601819454,
+  "source_native_pixel_m": {
+    "2022": 0.055,
+    "2025": 0.052
+  },
+  "pixel_note": "4 cm source resampled for the shipped wire budget",
+  "bounds_xz": [
+    500.0,
+    -250.0,
+    750.0,
+    0.0
+  ],
+  "image_origin": "north-west; row increases south",
+  "ortho_uv": {
+    "offset": 0.01018808777429467,
+    "scale": 0.9796238244514106
+  },
+  "splat_uv": {
+    "offset": 0.007692307692307693,
+    "scale": 0.9846153846153847
+  },
+  "textures": {
+    "ortho2022": {
+      "uri": "ortho2022.ktx2",
+      "valid": true,
+      "vkFormat": 0,
+      "width": 6380,
+      "height": 6380,
+      "levels": 13,
+      "supercompression": "BasisLZ(ETC1S)",
+      "bytes": 5734573,
+      "sha256": "6e60b5cf28a79cb4baa46a431f62371a8f870406cc73ca4e49b9fea94f83c9c8",
+      "layers": 1,
+      "command": [
+        "toktx",
+        "--t2",
+        "--genmipmap",
+        "--threads",
+        "2",
+        "--assign_oetf",
+        "srgb",
+        "--encode",
+        "etc1s",
+        "--qlevel",
+        "128",
+        "--clevel",
+        "0",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/ortho2022.ktx2",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/ortho2022.png"
+      ],
+      "inputs": [
+        "fd25460343911cebafb5924921c77697b3756a8e054795e34a4b380c768ed027"
+      ]
+    },
+    "ortho2025": {
+      "uri": "ortho2025.ktx2",
+      "valid": true,
+      "vkFormat": 0,
+      "width": 6380,
+      "height": 6380,
+      "levels": 13,
+      "supercompression": "BasisLZ(ETC1S)",
+      "bytes": 6046908,
+      "sha256": "e52d251cdbc8388453df240800f49fff90e342debb99e57591f0ea1d2bba3fe5",
+      "layers": 1,
+      "command": [
+        "toktx",
+        "--t2",
+        "--genmipmap",
+        "--threads",
+        "2",
+        "--assign_oetf",
+        "srgb",
+        "--encode",
+        "etc1s",
+        "--qlevel",
+        "128",
+        "--clevel",
+        "0",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/ortho2025.ktx2",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/ortho2025.png"
+      ],
+      "inputs": [
+        "e28bebcad9ef889b9808387c39505a0d67c1d9876f410a53ef2284192de2c53b"
+      ]
+    },
+    "ortho": {
+      "uri": "ortho.ktx2",
+      "sha256": "9f616c97d80c448ae22a7058c779d52d9b7708f690bf4d128c09ef497b94368f",
+      "bytes": 3066047,
+      "width": 5716,
+      "height": 5716,
+      "levels": 13,
+      "valid": true,
+      "supercompression": "BasisLZ(ETC1S)"
+    },
+    "splat0": {
+      "uri": "splat0.ktx2",
+      "valid": true,
+      "vkFormat": 0,
+      "width": 1040,
+      "height": 1040,
+      "levels": 11,
+      "supercompression": "zstd",
+      "bytes": 118053,
+      "sha256": "b27931abd23ba676cd967133a3712fbc3221aaf0f30183e09050eeb1ea509858",
+      "layers": 1,
+      "command": [
+        "toktx",
+        "--t2",
+        "--genmipmap",
+        "--threads",
+        "2",
+        "--assign_oetf",
+        "linear",
+        "--encode",
+        "uastc",
+        "--uastc_quality",
+        "2",
+        "--zcmp",
+        "3",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/splat0.ktx2",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/splat0.png"
+      ],
+      "inputs": [
+        "2c8cae7d1761d000e90c4084802bd233a254f6601b620d3edcd6ec68e4b1deaf"
+      ]
+    },
+    "splat1": {
+      "uri": "splat1.ktx2",
+      "valid": true,
+      "vkFormat": 0,
+      "width": 1040,
+      "height": 1040,
+      "levels": 11,
+      "supercompression": "zstd",
+      "bytes": 157136,
+      "sha256": "93afbe1fcb37158af5416b46e8fd273ad22201e2fd041458eb3d1689b41c9d15",
+      "layers": 1,
+      "command": [
+        "toktx",
+        "--t2",
+        "--genmipmap",
+        "--threads",
+        "2",
+        "--assign_oetf",
+        "linear",
+        "--encode",
+        "uastc",
+        "--uastc_quality",
+        "2",
+        "--zcmp",
+        "3",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/splat1.ktx2",
+        "/Users/wnt/turku3d/wt/integration-data/work/textures/ground/t0_2_-1/splat1.png"
+      ],
+      "inputs": [
+        "237ddf4c2a0a1f1904b0e79947fe2dbd0ca5c379f95255815363e39f281a279d"
+      ]
+    }
+  },
+  "runtime_textures": [
+    "ortho",
+    "splat0",
+    "splat1"
+  ],
+  "semantic_source": "ground triangles + ortho fallback",
+  "triangle_coverage": 0.9985723495483398,
+  "ground_inputs": [
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_7_-5.col.npz",
+      "sha256": "eaa9ecca928fadfc42822b8821848843166694b2dd0e63d90687083392f568c4"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_8_-5.col.npz",
+      "sha256": "1f07185ab3ddb60c8f52e17711d5eb4a7e15b972a9e1fb9db858dba75c6bdfb5"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_9_-5.col.npz",
+      "sha256": "63e24523dd913af52fa3a034519d2248f6c303be391e701be96a5fd95885462b"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_10_-5.col.npz",
+      "sha256": "578a9e9169ef244e8e7bd9c1fac558c3d765b1ed5d24326ae9de66d6630ebe3d"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_11_-5.col.npz",
+      "sha256": "f274d1c48483fd968ed6527e4e8e109c7d03079dc4e5a3f41cb9df66d675f071"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_12_-5.col.npz",
+      "sha256": "1686ff9895f17edd9636fa3f48d2c747aea66074f930a0ff891f25d25f241046"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_7_-4.col.npz",
+      "sha256": "f788cb784a4c0b3fa2d1450924cd625c88347a214165b69d4b5efe013037ec84"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_8_-4.col.npz",
+      "sha256": "c3fe82ff43e87d50874a565a0f92f282e9a240de2244a3ca1bb8ed9bad36a692"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_9_-4.col.npz",
+      "sha256": "c6d0f005ce0d91b785c734b75798a1a7dfddce5ef8b7f293ff360cb7a006a707"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_10_-4.col.npz",
+      "sha256": "72710d34bc2c62f5bc701e0e9f47da7c9f535b234d99baee496e8a96ee47d01d"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_11_-4.col.npz",
+      "sha256": "9b8f65cbe75672814713a63b98b6e8a49702ab601378be4ba2097983f5795da8"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_12_-4.col.npz",
+      "sha256": "7d03ad848546f3085bad4123e7e63a46658a6c17c7c2fef6a161b8bf64c627b5"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_7_-3.col.npz",
+      "sha256": "ae66e441adcbf8d3e9ce9428cbe37e03fda584e55fb541456d5b59acec291473"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_8_-3.col.npz",
+      "sha256": "5ef2278173a68088ecc3b4bdcd7ac81d8b4df03fea0b66b8868a27199a7438c6"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_9_-3.col.npz",
+      "sha256": "f8f7e4dfed1058006e51178e3070cf4fae3b0a5a56a564092a0eec7869ddfcc6"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_10_-3.col.npz",
+      "sha256": "bd7843424f8a3594b934675e624d03d10169e0a9d99a9705b6746bef35a33bd1"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_11_-3.col.npz",
+      "sha256": "8ca0788c67572ef0000596948c45e3becd6f78b906fbe8970fd8ef5b189d9c03"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_12_-3.col.npz",
+      "sha256": "c6baeea51d428fba94d907ed2a26e16a069e19ab88b224406c7f61d314f1561d"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_7_-2.col.npz",
+      "sha256": "6c6f94b04f9386fb0d6f112368d601c9277906babf3b1274f2d00321033ab6d8"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_8_-2.col.npz",
+      "sha256": "206b14dabf40c9386f05566b87a74322856b0f8e6c1f8c8dcf64ab8cb1f26cc3"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_9_-2.col.npz",
+      "sha256": "6431cf82a2f1f28dc3fe399763efc9705e0e63ff71f609cd521465974dad828b"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_10_-2.col.npz",
+      "sha256": "993cf19b21f12899a95d49653ab5cdda1b8e386ccb2d18d330db012c880f1c9d"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_11_-2.col.npz",
+      "sha256": "662e7f7799ac2c51ee0c55832c9c9a2368f9cdda8c685943eb34bb5b97d6d4ef"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_12_-2.col.npz",
+      "sha256": "ea5d9e7f55e3411b2919d408e299eeaa8922a273a227c2716b5714b7cfd0f1c7"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_7_-1.col.npz",
+      "sha256": "a5903cd419de0b3e469bdf36b479e10a44e76f46c0b4dfa2ecfc01e4168d1351"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_8_-1.col.npz",
+      "sha256": "d32982423d026e0f0117e042f3c96e592e2e4a982af3138ed74e301923176ecb"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_9_-1.col.npz",
+      "sha256": "812947ce3849bb7d8af683e056cc8dbc4ee3189b53539b314fa477653d4122eb"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_10_-1.col.npz",
+      "sha256": "b5e83e2e267e654d76437c50c8f7e0f3fca694af581adc0a0a409ee31f9d10e8"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_11_-1.col.npz",
+      "sha256": "d3ffd9818adebb9068f163aa5fc093dd049c588489d5aba8f5c5f9a692239b5b"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_12_-1.col.npz",
+      "sha256": "d07bcbc7c179c5bedefa0e05c99301964047fae55fcddfda605ada8aa73cef71"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_7_0.col.npz",
+      "sha256": "33a0962690aeb8d9beed34d023b7c0f21cf1127d6b1ecd167130a8aed3393507"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_8_0.col.npz",
+      "sha256": "f31c4a4c4f4c6e187c8f0a6ea8823b82868d388bd90336b72966f920d1edca9e"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_9_0.col.npz",
+      "sha256": "a9f448821c85fa3e9100ce9fcda4b77712b5975c44f381d443bc602bd1d6072a"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_10_0.col.npz",
+      "sha256": "6c22c1b50d22d4aedb5524102db30acb424bcc28d4f5edf66eb2c965388674bb"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_11_0.col.npz",
+      "sha256": "33c7a8e88582622cc9310c8210818cef0aa93f56355465813082360d21b8c2ee"
+    },
+    {
+      "path": "/Users/wnt/turku3d/wt/integration-data/work/build/layers/ground/c_12_0.col.npz",
+      "sha256": "f0138616bc3eeb33bcff99d9bc058323d40efe77c2131c8b84e83d0c0998055e"
+    }
+  ],
+  "uncertain_fraction": 0.4565613824,
+  "gpu_bytes_8bpp": 57180080,
+  "seconds": 189.3
+}
